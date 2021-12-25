@@ -1,0 +1,33 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["plugin:prettier/recommended", "eslint-config-prettier"],
+  "rules": {
+    "no-console": "warn",
+    "no-alert": "warn",
+    "no-debugger": "warn",
+    "no-shadow": "off",
+    "no-shadow-restricted-names": "error",
+    "no-unused-vars": "off",
+    "no-irregular-whitespace": "off",
+    "@typescript-eslint/no-unused-vars": ["warn"],
+    "no-confusing-arrow": "warn",
+    "@typescript-eslint/no-shadow": ["error"],
+    "no-catch-shadow": "error",
+    "no-constant-condition": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "quoteProps": "consistent"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+/src/**/*.css
+/src/**/*.png
+/src/**/*.webp
+/src/**/*.svg
+/src/**/*.ttf
+/src/**/*.woff
+/src/**/*.woff2
+/src/**/*.eot
+/src/serviceWorker.ts
